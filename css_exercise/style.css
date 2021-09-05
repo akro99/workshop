@@ -1,0 +1,79 @@
+h1{
+    border-style: solid;
+    border-width: 7px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    width: 20%;
+}
+
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif 
+}  
+
+body{
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color:linen;
+    background-color: #d8da3d
+    padding-left: 11em;
+}
+
+ul.navbar{
+    list-style-type: none;
+    top: 1em;
+    left: 1em;
+    width: 9em; 
+}
+
+ul.navbar li
+{
+    background: rgb(236, 162, 162);
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid black
+}
+
+ul.navbar a
+{
+    text-decoration: none;
+}
+
+ul.navbar li:hover 
+{
+        background: rgb(183, 234, 238);
+        margin: 0.5em 0;
+        padding: 0.3em;
+        border-right: 1em solid rgb(241, 235, 235) 
+}
+
+address 
+{
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted 
+}
+
+.mother{
+    border-style: solid;
+    border-width: 10px;
+    background-color: rgb(250, 243, 178);
+    left: 20px;
+    top: 90px;
+    position:absolute;
+}
+
+.daughter{
+    border-style:ridge;
+    border-width: 5px;
+    margin: 1em;
+    left:5px;
+    top:5px;
+    background-color: lightcyan;
+    position:static;
+}
+
+#mary, #jeff, #lily{
+    color:lightpink;
+}

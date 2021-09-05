@@ -7,12 +7,45 @@
     <title>Hello tag</title>
 </head>
 <body style="background-color: lavender"
-    <h3>Hello, me!</h3>
+    <h3><i>Hello, me!</i></h3>
+    <style>
+        table{
+            color:lightcoral;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .oo{
+            color:rgb(202, 48, 20);
+            font-style: italic;
+        }
+        #submit_button{
+            background-color: rgb(96, 171, 247);
+        }
+
+    </style>
     <p style="background-color: #DBF3F9;">this is a demonstration of blablabla.<br>
         one more<br>
         one more<br>
     </p>
     <img src="https://www.cuhk.edu.hk/chinese/images/cuhk_logo_2x.png">
     <a href="https://www.cuhk.edu.hk/">Link to CUHK website</a>
+    <ol>
+        <li class="oo">cherry</li>
+        <li>berry</li>
+        <li>banana</li>
+    </ol>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr><th style="color:black">Student ID</th><th style="color:black">First name</th><th style="color:black">Last name</th></tr>
+        <tr><td style="background-color:yellow;height:50px">1001</td><td>yi</td><td>Wang</td></tr>
+        <tr><td>1002</td><td>ye</td><td>Li</td></tr>
+        <tr><td>1003</td><td>yong</td><td>Zhang</td></tr>
+    </table>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+        <button id="submit_button"class="oo">Submit</button>
+      </form>       
 </body>
 </html>
